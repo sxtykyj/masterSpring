@@ -53,3 +53,17 @@ Spring学习实践
           报错：org.apache.jasper.JasperException: Unable to compile class for JSP
           状态：已解决
           原因：SpringBoot项目会采用内嵌的Tomcat运行当前应用，而搭建项目时同时还加入了Jetty依赖，导致该报错
+#### 4）. 知识点整理：
+              1. 配置依赖相关
+                 1）代码
+                            <!--配置JSP相关依赖-->
+                            <dependency>
+                                <groupId>org.apache.tomcat.embed</groupId>
+                                <artifactId>tomcat-embed-jasper</artifactId>
+                                <scope>provided</scope>
+                            </dependency>
+                 2）添加provided限制：
+                        容器或JDK已提供范围，表示该依赖包已经由目标容器（如tomcat）和JDK提供，只在编译的classpath中加载和使用，
+                    打包的时候不会包含在目标包中。最常见的是j2ee规范相关的servlet-api和jsp-api等jar包，一般由servlet容器提供，
+                    无需在打包到war包中，如果不配置为provided，把这些包打包到工程war包中，在tomcat6以上版本会出现冲突无法正常运
+                    行程序（版本不符的情况)。
