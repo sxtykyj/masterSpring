@@ -52,4 +52,4 @@ Spring学习实践
 #### 3）. 报错整理：
           报错：org.apache.jasper.JasperException: Unable to compile class for JSP
           状态：已解决
-          原因：SpringBoot项目会采用内嵌的Tomcat运行当前应用，而搭建项目时加入了Jetty依赖，导致该报错
+          原因：SpringBoot项目会采用内嵌的Tomcat运行当前应用，而搭建项目时同时还加入了Jetty依赖，导致该报错
