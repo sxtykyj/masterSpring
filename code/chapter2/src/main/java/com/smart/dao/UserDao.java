@@ -15,9 +15,9 @@ import java.sql.SQLException;
  */
 @Repository
 public class UserDao {
-    private final static String MATCH_COUNT_SQL = "SELECT count(*) FROM t_user" + " WHERE user_name=? and password=?";
-    private final static String FIND_USER_SQL = "SELECT * FROM t_user" + " WHERE user_name=?";
-    private final static String UPDATE_LOGIN_INFO_SQL = "UPDATE t_user SET" + " last_visit=?, last_ip=?, credits=?, WHERE user_id=?";
+    private final static String MATCH_COUNT_SQL = "SELECT count(*) FROM t_user " + " WHERE user_name=? and password=?";
+    private final static String FIND_USER_SQL = "SELECT * FROM t_user " + " WHERE user_name=?";
+    private final static String UPDATE_LOGIN_INFO_SQL = "UPDATE t_user SET " + " last_visit=?,last_ip=?,credits=? WHERE user_id=?";
 
     private JdbcTemplate jdbcTemplate;
 

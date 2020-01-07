@@ -27,11 +27,13 @@ public class UserServiceTest extends AbstractTransactionalTestNGSpringContextTes
         boolean b2 = userService.hasMatchUser("admin", "1111");
         assertTrue(b1);
         assertTrue(!b2);
+        System.out.println("question1!");
     }
 
     @org.testng.annotations.Test
     public void findUserByUserName() {
         User user = userService.findUserByUserName("admin");
         assertEquals(user.getUserName(), "admin");
+        System.out.println("question2--!");
     }
 }
