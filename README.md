@@ -62,8 +62,38 @@ Spring学习实践
                                 <artifactId>tomcat-embed-jasper</artifactId>
                                 <scope>provided</scope>
                             </dependency>
+                            
                  2）添加provided限制：
                         容器或JDK已提供范围，表示该依赖包已经由目标容器（如tomcat）和JDK提供，只在编译的classpath中加载和使用，
                     打包的时候不会包含在目标包中。最常见的是j2ee规范相关的servlet-api和jsp-api等jar包，一般由servlet容器提供，
                     无需在打包到war包中，如果不配置为provided，把这些包打包到工程war包中，在tomcat6以上版本会出现冲突无法正常运
                     行程序（版本不符的情况)。
+                    
+              2. SpringBoot配置检测功能: Actuator
+                 1）application.properties监控配置：
+                     # 数据库监控配置
+                     management.health.db.enabled=true
+                     management.health.defaults.enabled=true
+                     # 应用磁盘空间检查配置
+                     management.health.diskspace.enabled=true
+                     management.health.diskspace.path=D:/IDEA/project/masterSpring/code
+                     management.health.diskspace.threshold=0
+                     # ElasticSearch服务健康检查配置
+                     management.health.elasticsearch.enabled=true
+                     management.health.elasticsearch.indices=index1,index2
+                     management.health.elasticsearch.response-timeout=100
+                     # Solr服务健康检查配置
+                     management.health.solr.enabled=true
+                     # JMS服务健康检查配置
+                     management.health.jms.enabled=true
+                     # Mail服务健康检查配置
+                     management.health.mail.enabled=true
+                     # MongoDB服务健康检查配置
+                     management.health.mongo.enabled=true
+                     # Rabbit MQ服务健康检查配置
+                     management.health.rabbit.enabled=true
+                     # Redis服务健康检查配置
+                     management.health.redis.enabled=true
+                     management.health.status.order=DOWN,OUT_OF_SERVICE,UNKNOWN,UP
+                     
+                 2）监控地址：http://localhost:8080/health
