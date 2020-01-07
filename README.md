@@ -41,3 +41,15 @@ Spring学习实践
 
         mysql> COMMIT;
         Query OK, 0 rows affected (0.00 sec)
+### 2. [论坛登录Demo (SpringBoot + SpringMVC + Tomcat)](https://github.com/sxtykyj/masterSpring/tree/master/code/chapter3)
+#### 1）. Tool Version：
+          JDK                ：1.8
+          IDE                ：IntelliJ IDEA 2018.3.2 x64
+          Encoding           ：UTF-8
+          springBoot.version ：1.3.3.RELEASE
+          mysql.version      ：8.0.18
+#### 2）. 论坛登录：http://localhost:8080/index.html
+#### 3）. 报错整理：
+          报错：org.apache.jasper.JasperException: Unable to compile class for JSP
+          状态：已解决
+          原因：SpringBoot项目会采用内嵌的Tomcat运行当前应用，而搭建项目时加入了Jetty依赖，导致该报错
