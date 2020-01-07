@@ -2,7 +2,14 @@
 Spring学习实践
 ## 目录
 ### 1. [论坛登录Demo (Spring + SpringMVC + Jetty)](https://github.com/sxtykyj/masterSpring/tree/master/code/chapter2)
-#### 1）. 数据库代码
+#### 1）. Tool Version：
+          JDK            ：1.8
+          IDE            ：IntelliJ IDEA 2018.3.2 x64
+          Encoding       ：UTF-8
+          spring.version ：4.6.2
+          mysql.version  ：8.0.18
+#### 2）. Jetty登录：http://localhost:8080/bbs/index.html
+#### 3）. 数据库代码
         mysql> DROP DATABASE IF EXISTS sampledb;
         Query OK, 0 rows affected, 1 warning (0.01 sec)
 
@@ -34,4 +41,3 @@ Spring学习实践
 
         mysql> COMMIT;
         Query OK, 0 rows affected (0.00 sec)
-#### 2）. Jetty登录：http://localhost:8080/bbs/index.html
