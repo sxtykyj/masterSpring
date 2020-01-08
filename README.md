@@ -99,7 +99,7 @@ Spring学习实践
                  2）监控地址：http://localhost:8080/health
 ### 3. [Spring Ioc学习](https://github.com/sxtykyj/masterSpring/tree/master/code/chapter4)
 #### 1）. 知识点整理：
-           * Java反射机制
+      * Java反射机制
              1. 类装载器将类装入JVM步骤：
                1）. 装载：查找和导入Class文件 -> 由ClassLoader以及其子类负责
                2）. 链接：执行校验、准备和解析步骤（其中解析步骤可选）
@@ -131,5 +131,5 @@ Spring学习实践
                  Method setMaxSpeed = clazz.getMethod("setMaxSpeed", String.class);
                  setMaxSpeed.invoke(car, "200");
                  
-           * Ioc的注入类型：构造函数注入，属性注入，接口注入(不建议)
-                   其中，spring支持构造函数注入和属性注入
+      * Ioc的注入类型：构造函数注入，属性注入，接口注入(不建议)
+             其中，spring支持构造函数注入和属性注入
