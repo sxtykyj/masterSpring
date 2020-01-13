@@ -1,9 +1,7 @@
-package Ioc_study.AOP_For_CGLib;
+package aop_study.AOP_For_CGLib;
 
-import Ioc_study.AOP_For_JDKProxy.ForumServiceImpl;
+import aop_study.AOP_For_JDKProxy.ForumServiceImpl;
 import org.junit.Test;
-
-import java.lang.reflect.Proxy;
 
 /**
  * @Author: yk

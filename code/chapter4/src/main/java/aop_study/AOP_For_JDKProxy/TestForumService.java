@@ -1,4 +1,4 @@
-package Ioc_study.AOP_For_JDKProxy;
+package aop_study.AOP_For_JDKProxy;
 
 import org.junit.Test;
 

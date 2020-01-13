@@ -1,8 +1,6 @@
-package Ioc_study.AOP_For_CGLib;
+package aop_study.AOP_For_CGLib;
 
-import Ioc_study.AOP_For_JDKProxy.PerformanceHandler;
-import org.aopalliance.intercept.MethodInvocation;
-import org.springframework.cglib.proxy.Callback;
+import aop_study.AOP_For_JDKProxy.PerformanceHandler;
 import org.springframework.cglib.proxy.Enhancer;
 import org.springframework.cglib.proxy.MethodInterceptor;
 import org.springframework.cglib.proxy.MethodProxy;
