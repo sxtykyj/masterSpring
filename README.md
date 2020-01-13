@@ -133,9 +133,9 @@ Spring学习实践
                  
       * Ioc的注入类型：构造函数注入，属性注入，接口注入(不建议)
              其中，spring支持构造函数注入和属性注入
+             
 ### 4. [Spring AOP：使用动态代理技术在运行期间织入增强的代码 ](https://github.com/sxtykyj/masterSpring/tree/master/code/chapter4/src/main/java/aop_study)
-#### 1）知识点整理：
-          * 基本概念：
+#### 1）基本概念：
                 AOP: Aspect Oriented Programing  面向切面（方面/剖面）编程
                 Advice（通知）:把各组件中公共业务逻辑抽离出来作为一个独立 的组件
                 Weave（织入） : 把抽离出来的组件（Advice）,使用到需要使用该逻辑 地方的过程。
@@ -154,10 +154,9 @@ Spring学习实践
 #### 3）通知类型（增强类型）
 ##### a. @Before  在切点方法之前执行 [实例](https://github.com/sxtykyj/masterSpring/tree/master/code/chapter4/src/main/java/aop_study/advice/beforeAdvice)
 ##### b. @After  在切点方法之后执行 [实例](https://github.com/sxtykyj/masterSpring/tree/master/code/chapter4/src/main/java/aop_study/advice/afterAdvice)
-##### c. @Around环绕通知  [实例](https://github.com/sxtykyj/masterSpring/tree/master/code/chapter4/src/main/java/aop_study/advice/aroundAdvice)
+##### c. @Around 环绕通知  [实例](https://github.com/sxtykyj/masterSpring/tree/master/code/chapter4/src/main/java/aop_study/advice/aroundAdvice)
 ##### d. @AfterReturning 切点方法返回后执行
 ##### e. @AfterThrowing 切点方法抛异常执行
-               
             * 执行顺序：
                     @Around环绕通知
                     @Before通知执行
