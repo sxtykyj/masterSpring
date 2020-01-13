@@ -97,7 +97,7 @@ Spring学习实践
                      management.health.status.order=DOWN,OUT_OF_SERVICE,UNKNOWN,UP
                      
                  2）监控地址：http://localhost:8080/health
-### 3. [Spring Ioc学习](https://github.com/sxtykyj/masterSpring/tree/master/code/chapter4)
+### 3. [Spring Ioc学习](https://github.com/sxtykyj/masterSpring/tree/master/code/chapter4/src/main/java/Ioc_study)
 #### 1）. 知识点整理：
       * Java反射机制
              1. 类装载器将类装入JVM步骤：
@@ -133,3 +133,40 @@ Spring学习实践
                  
       * Ioc的注入类型：构造函数注入，属性注入，接口注入(不建议)
              其中，spring支持构造函数注入和属性注入
+### 4. [Spring AOP学习](https://github.com/sxtykyj/masterSpring/tree/master/code/chapter4/src/main/java/aop_study)
+#### 1）. 知识点整理：
+          * AOP: Aspect Oriented Programing  面向切面（方面/剖面）编程
+            Advice（通知）:把各组件中公共业务逻辑抽离出来作为一个独立 的组件
+            Weave（织入） : 把抽离出来的组件（Advice）,使用到需要使用该逻辑 地方的过程。
+            JoinPoint （连接点）： Advice 组件可以weave的特征点。
+            PointCut（切入点）：用来明确Advice需要织入的连接点
+            Aspect（切面）：Aspect=Advice + PointCut
+          
+          * 通知类型
+               @Before  在切点方法之前执行
+               @After  在切点方法之后执行
+               @AfterReturning 切点方法返回后执行
+               @AfterThrowing 切点方法抛异常执行
+               @Around环绕通知
+            执行顺序：
+                    @Around环绕通知
+                    @Before通知执行
+                    @Before通知执行结束
+                    @Around环绕通知执行结束
+                    @After后置通知执行了!
+                    @AfterReturning
+
+          * 切面设置：可以使用&&、||、!、三种运算符来组合切点表达式
+              execution表达式："execution(public * com.xhx.springboot.controller.*.*(..))"
+                        *只能匹配一级路径 
+                        ..可以匹配多级，可以是包路径，也可以匹配多个参数
+                        + 只能放在类后面，表明本类及所有子类
+                        
+          * Spring AOP：使用动态代理技术在运行期间织入增强的代码
+            动态代理机制：对于Singleton的代理对象或者具有实例池的代理，适合采用CGLib动态代理技术，反之则适合采用JDK动态代理技术
+               1. [基于JDK的proxy](https://github.com/sxtykyj/masterSpring/tree/master/code/chapter7)
+                   局限：只能为接口创建代理实例
+               2. [基于CGLib的proxy](https://github.com/sxtykyj/masterSpring/tree/master/code/chapter7)
+                   优点 ：可以为类创建子类；性能优于基于JDK的proxy
+                   局限 ：不能代理目标类中的final或private方法；创建代理对象时所花费的时间多于基于JDK的proxy
+             
