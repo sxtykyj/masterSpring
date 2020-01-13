@@ -133,8 +133,8 @@ Spring学习实践
                  
       * Ioc的注入类型：构造函数注入，属性注入，接口注入(不建议)
              其中，spring支持构造函数注入和属性注入
-### 4. [Spring AOP学习](https://github.com/sxtykyj/masterSpring/tree/master/code/chapter4/src/main/java/aop_study)
-#### 知识点整理：
+### 4. [Spring AOP：使用动态代理技术在运行期间织入增强的代码 ](https://github.com/sxtykyj/masterSpring/tree/master/code/chapter4/src/main/java/aop_study)
+#### 1）知识点整理：
           * 基本概念：
                 AOP: Aspect Oriented Programing  面向切面（方面/剖面）编程
                 Advice（通知）:把各组件中公共业务逻辑抽离出来作为一个独立 的组件
@@ -142,23 +142,23 @@ Spring学习实践
                 JoinPoint （连接点）： Advice 组件可以weave的特征点。
                 PointCut（切入点）：用来明确Advice需要织入的连接点
                 Aspect（切面）：Aspect=Advice + PointCut
-                               
-          * Spring AOP：使用动态代理技术在运行期间织入增强的代码
-             动态代理机制：对于Singleton的代理对象或者具有实例池的代理，适合采用CGLib动态代理技术，反之则适合采用JDK动态代理技术
-                 1. [基于JDK的proxy](https://github.com/sxtykyj/masterSpring/tree/master/code/chapter4/src/main/java/aop_study/AOP_For_JDKProxy)
-                     局限：只能为接口创建代理实例
-                 2. [基于CGLib的proxy](https://github.com/sxtykyj/masterSpring/tree/master/code/chapter4/src/main/java/aop_study/AOP_For_CGLib)
-                     优点 ：可以为类创建子类；性能优于基于JDK的proxy
-                     局限 ：不能代理目标类中的final或private方法；创建代理对象时所花费的时间多于基于JDK的proxy
-             注：建议使用Spring提供的代理工厂ProxyFactory，可在Spring中配置 [实例](https://github.com/sxtykyj/masterSpring/tree/master/code/chapter4/src/main/java/aop_study/AOP_For_ProxyFactory)
-             
-          * 通知类型（增强类型）
-               @Before  在切点方法之前执行 [实例](https://github.com/sxtykyj/masterSpring/tree/master/code/chapter4/src/main/java/aop_study/advice/beforeAdvice)
-               @After  在切点方法之后执行 [实例](https://github.com/sxtykyj/masterSpring/tree/master/code/chapter4/src/main/java/aop_study/advice/afterAdvice)
-               @AfterReturning 切点方法返回后执行
-               @AfterThrowing 切点方法抛异常执行
-               @Around环绕通知  [实例](https://github.com/sxtykyj/masterSpring/tree/master/code/chapter4/src/main/java/aop_study/advice/aroundAdvice)
-            执行顺序：
+#### 2）动态代理机制：对于Singleton的代理对象或者具有实例池的代理，适合采用CGLib动态代理技术，反之则适合采用JDK动态代理技术
+       
+##### a. [基于JDK的proxy](https://github.com/sxtykyj/masterSpring/tree/master/code/chapter4/src/main/java/aop_study/AOP_For_JDKProxy)
+           局限：只能为接口创建代理实例
+##### b. [基于CGLib的proxy](https://github.com/sxtykyj/masterSpring/tree/master/code/chapter4/src/main/java/aop_study/AOP_For_CGLib)
+           优点 ：可以为类创建子类；性能优于基于JDK的proxy
+           局限 ：不能代理目标类中的final或private方法；创建代理对象时所花费的时间多于基于JDK的proxy
+##### c. 注：建议使用Spring提供的代理工厂ProxyFactory，可在Spring中配置 [实例](https://github.com/sxtykyj/masterSpring/tree/master/code/chapter4/src/main/java/aop_study/AOP_For_ProxyFactory)    
+ 
+#### 3）通知类型（增强类型）
+##### a. @Before  在切点方法之前执行 [实例](https://github.com/sxtykyj/masterSpring/tree/master/code/chapter4/src/main/java/aop_study/advice/beforeAdvice)
+##### b. @After  在切点方法之后执行 [实例](https://github.com/sxtykyj/masterSpring/tree/master/code/chapter4/src/main/java/aop_study/advice/afterAdvice)
+##### c. @Around环绕通知  [实例](https://github.com/sxtykyj/masterSpring/tree/master/code/chapter4/src/main/java/aop_study/advice/aroundAdvice)
+##### d. @AfterReturning 切点方法返回后执行
+##### e. @AfterThrowing 切点方法抛异常执行
+               
+            * 执行顺序：
                     @Around环绕通知
                     @Before通知执行
                     @Before通知执行结束
@@ -166,7 +166,7 @@ Spring学习实践
                     @After后置通知执行了!
                     @AfterReturning
 
-          * 切面
+#### 4）切面
             1）切面设置：可以使用&&、||、!、三种运算符来组合切点表达式
                   execution表达式："execution(public * com.xhx.springboot.controller.*.*(..))"
                         *只能匹配一级路径 
