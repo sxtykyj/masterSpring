@@ -18,11 +18,17 @@
 
     <!-- 扫描包类，将标注Spring注解的类自动转化为Bean，同时完成Bean的注入-->
     <context:component-scan base-package="Ioc_study"/>
+    <context:component-scan base-package="aop_study"/>
     <!-- 实现类实例化-->
     <bean id="person" class="Ioc_study.injectionMethod.Goal" />
     <!-- 通过person-ref建立依赖关系-->
     <bean id="injection_method" class="Ioc_study.injectionMethod.injection_method"
           p:person-ref="person" />
+
+    <!-- 配置NaiveWaiter Bean和切面-->
+    <aop:aspectj-autoproxy/>
+    <bean id="Waiter" class="aop_study.advice.beforeAdvice.NaiveWaiter"/>
+    <bean class="aop_study.advice.aspectJ.EnableSellerAspect"/>
 
 
 
