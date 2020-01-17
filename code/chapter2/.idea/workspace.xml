@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e12b48c2-ce9f-44b4-86e5-85236fdca000" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jdbc.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../.idea/masterSpring.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/masterSpring.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/smart-context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/smart-context.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -36,11 +32,12 @@
         <entry file="file://$PROJECT_DIR$/src/main/resources/smart-context.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="254">
-              <caret line="28" column="56" selection-start-line="28" selection-start-column="56" selection-end-line="28" selection-end-column="56" />
+              <caret line="25" column="74" lean-forward="true" selection-start-line="25" selection-start-column="74" selection-end-line="25" selection-end-column="74" />
               <folding>
                 <element signature="e#1341#1366#0" expanded="true" />
                 <element signature="e#1404#1417#0" expanded="true" />
                 <element signature="e#1460#1478#0" expanded="true" />
+                <element signature="e#1521#1539#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -269,8 +266,8 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1578364510296" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1579229222326" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../.." />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Artifacts" />
@@ -383,7 +380,7 @@
       <workItem from="1578337400739" duration="22789000" />
       <workItem from="1578368018129" duration="64000" />
       <workItem from="1578427193113" duration="621000" />
-      <workItem from="1579227155088" duration="1583000" />
+      <workItem from="1579227155088" duration="1877000" />
     </task>
     <task id="LOCAL-00001" summary="fix pom.xml">
       <created>1578339711829</created>
@@ -413,7 +410,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578364485013</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="《精通Spring4.x 企业应用开发实战》第二章Demo fix placeholder">
+      <created>1579229160382</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1579229160382</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -449,11 +453,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39623000" />
+    <option name="totallyTimeSpent" value="39917000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1477" height="797" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17899929" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -498,7 +501,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="fix pom.xml" />
     <MESSAGE value="《精通Spring4.x 企业应用开发实战》第二章Demo" />
-    <option name="LAST_COMMIT_MESSAGE" value="《精通Spring4.x 企业应用开发实战》第二章Demo" />
+    <MESSAGE value="《精通Spring4.x 企业应用开发实战》第二章Demo fix placeholder" />
+    <option name="LAST_COMMIT_MESSAGE" value="《精通Spring4.x 企业应用开发实战》第二章Demo fix placeholder" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -663,11 +667,12 @@
     <entry file="file://$PROJECT_DIR$/src/main/resources/smart-context.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="254">
-          <caret line="28" column="56" selection-start-line="28" selection-start-column="56" selection-end-line="28" selection-end-column="56" />
+          <caret line="25" column="74" lean-forward="true" selection-start-line="25" selection-start-column="74" selection-end-line="25" selection-end-column="74" />
           <folding>
             <element signature="e#1341#1366#0" expanded="true" />
             <element signature="e#1404#1417#0" expanded="true" />
             <element signature="e#1460#1478#0" expanded="true" />
+            <element signature="e#1521#1539#0" expanded="true" />
           </folding>
         </state>
       </provider>
