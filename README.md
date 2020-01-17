@@ -275,3 +275,37 @@ Spring学习实践
         
 
 #### 3）JDBC对事务的支持
+
+     Connection conn;
+     try{
+        // 获取数据连接
+        conn = DriverManager.getConnection();
+        // 关闭自动提交机制
+        conn.setAutoCommit(false);
+        // 设置事务隔离级别
+        conn.setTransactionIsolation(Connection.TRANSACTION_SERIALIZABLE);
+        Statement stmt = conn.createStatement();
+        int rows = stmt.executeUpdate("INSERT INTO t_topic VALUES(1, 'tom') ");
+        // 设置一个保存点
+        Savepoint svpt = conn.setSavepoint("savePoint1");
+        rows = stmt.executeUpdate("UPDATE t_user set topic_nums = topic_nums + 1 WHERE user_id = 1");
+        // 提交事务
+        conn.commit();
+     } catch(Exception e){
+        ...
+        // 回滚事务至savePoint1
+        conn.rollback(svpt);
+     } finally{
+        ...
+     }
+        
+#### 4）ThreadLocal:使Spring的模板类访问底层数据时实现线程安全而无须线程同步 
+      
+        原理    ：为每一个线程维护一份独立的变量副本
+        实现思路：在ThreadLocal里有一个Map，用于存储每一个线程的变量副本，键为线程对象，值为对应线程的变量副本
+        接口方法：void set(T value)            设置当前线程的线程局部变量值
+                 public T get()               返回当前线程所对应的线程局部变量
+                 public void remove()              删除当前线程局部变量
+                 protexted T initialValue()   返回该线程局部变量的初始值
+        
+
