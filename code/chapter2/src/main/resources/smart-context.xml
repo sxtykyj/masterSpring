@@ -20,13 +20,22 @@
     <!-- 扫描包类，将标注Spring注解的类自动转化为Bean，同时完成Bean的注入-->
     <context:component-scan base-package="com.smart.dao"/>
     <!--定义一个使用DBCP实现的数据源-->
+    <context:property-placeholder location="/WEB-INF/jdbc.properties"/>
     <bean id="dataSource" class="org.apache.commons.dbcp.BasicDataSource"
           destroy-method="close">
-        <property name="driverClassName" value="com.mysql.jdbc.Driver"/>
-        <property name="url" value="jdbc:mysql://localhost:3306/sampledb"/>
-        <property name="username" value="root"/>
-        <property name="password" value="940925"/>
+        <property name="driverClassName" value="${jdbc.driverClassName}"/>
+        <property name="url" value="${jdbc.url}"/>
+        <property name="username" value="${jdbc.username}"/>
+        <property name="password" value="${jdbc.password}"/>
     </bean>
+
+    <!--<bean id="dataSource" class="org.apache.commons.dbcp.BasicDataSource"-->
+          <!--destroy-method="close">-->
+        <!--<property name="driverClassName" value="com.mysql.jdbc.Driver"/>-->
+        <!--<property name="url" value="jdbc:mysql://localhost:3306/sampledb"/>-->
+        <!--<property name="username" value="root"/>-->
+        <!--<property name="password" value="940925"/>-->
+    <!--</bean>-->
     <!--定义JDBC模板Bean-->
     <bean id="jdbcTemplate" class="org.springframework.jdbc.core.JdbcTemplate"
           p:dataSource-ref="dataSource"/>
