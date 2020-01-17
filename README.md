@@ -40,7 +40,8 @@ Spring学习实践
         Query OK, 1 row affected (0.01 sec)
 
         mysql> COMMIT;
-        Query OK, 0 rows affected (0.00 sec)
+        Query OK, 0 rows affected (0.00 sec)   
+
 ### 2. [论坛登录Demo (SpringBoot + SpringMVC + Tomcat)](https://github.com/sxtykyj/masterSpring/tree/master/code/chapter3)
 #### 1）. Tool Version：
           JDK                ：1.8
@@ -172,3 +173,34 @@ Spring学习实践
                         ..可以匹配多级，可以是包路径，也可以匹配多个参数
                         + 只能放在类后面，表明本类及所有子类
             2）切面配置：可使用Spring提供的DefaultAdviceAutoProxyCreator自动代理创建器，它可以将容器中的所有Advisor自动织入目标Bean中
+
+### 5. Spring对DAO的支持
+#### 1）数据源
+         1. Apache的DBCP数据源
+            1）实例
+                <!--定义一个使用DBCP实现的数据源-->
+                <bean id="dataSource" class="org.apache.commons.dbcp.BasicDataSource"
+                      destroy-method="close">
+                    <property name="driverClassName" value="com.mysql.jdbc.Driver"/>
+                    <property name="url" value="jdbc:mysql://localhost:3306/sampledb"/>
+                    <property name="username" value="root"/>
+                    <property name="password" value="940925"/>
+                </bean>
+            2）高并发优化：
+               问题：若采用默认设置，testOnBorrow属性默认值为true，数据源在将连接交给DAO前会事先检测连接是否完好。
+                     这样会避免“8小时问题”，但高并发条件会带来性能问题。
+               优化：将testOnBorrow设置为false，而将testEhileIdle设置为true，再设置好timeBetweenEvictionRunsMillis的值。
+               原理：DBCP将通过一个后台线程定时检测空闲连接，并清除发现的无用空闲连接。
+                    只要将timeBetweenEvictionRunsMillis的值设置为小于8小时，那些被MySQL关闭的空闲连接就可以被清除，从而避免“8小时问题”。
+
+         2. C3P0数据源              
+            * 实例
+                <!--定义一个使用DBCP实现的数据源-->
+                <bean id="dataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource"
+                      destroy-method="close">
+                    <property name="driverClassName" value="com.mysql.jdbc.Driver"/>
+                    <property name="url" value="jdbc:mysql://localhost:3306/sampledb"/>
+                    <property name="username" value="root"/>
+                    <property name="password" value="940925"/>
+                </bean>
+         
