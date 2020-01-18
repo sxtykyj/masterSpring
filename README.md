@@ -150,6 +150,7 @@ Spring学习实践
 ##### b. [基于CGLib的proxy](https://github.com/sxtykyj/masterSpring/tree/master/code/chapter4/src/main/java/aop_study/AOP_For_CGLib)
            优点 ：可以为类创建子类；性能优于基于JDK的proxy
            局限 ：不能代理目标类中的final或private方法；创建代理对象时所花费的时间多于基于JDK的proxy
+           注意：基于CGLib字节码动态代理的方案是通过扩展被增强类，动态创建其子类的方法进行AOP增强植入的。由于使用final、static、private修饰符的方法都不能被子类覆盖，相应地这些方法将无法实施AOP增强。
 ##### c. 注：建议使用Spring提供的代理工厂ProxyFactory，可在Spring中配置 [实例](https://github.com/sxtykyj/masterSpring/tree/master/code/chapter4/src/main/java/aop_study/AOP_For_ProxyFactory)    
  
 #### 3）通知类型（增强类型）
