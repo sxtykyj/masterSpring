@@ -15,8 +15,15 @@
         <setting name="mapUnderscoreToCamelCase" value="true" />
     </settings>
 
-    <mappers>
-        <package name="mapper"/>
-    </mappers>
+    <typeAliases>
+        <package name="com.smart.bean"/>
+    </typeAliases>
+
+    <!--<plugins>-->
+        <!--<plugin interceptor="com.github.pagehelper.PageInterceptor">-->
+            <!--&lt;!&ndash;分页参数合理化  &ndash;&gt;-->
+            <!--<property name="reasonable" value="true"/>-->
+        <!--</plugin>-->
+    <!--</plugins>-->
 
 </configuration>

@@ -23,7 +23,7 @@ public class Generator {
         boolean overwrite = true;
         // 读取MBG配置文件
         InputStream is = Generator.class.getResourceAsStream(
-                "/generator/generatorConfig.xml");
+                "/generatorConfig.xml");
         ConfigurationParser cp = new ConfigurationParser(warnings);
         Configuration config = cp.parseConfiguration(is);
         is.close();

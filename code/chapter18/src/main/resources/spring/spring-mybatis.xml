@@ -43,9 +43,11 @@
         <property name="dataSource" ref="dataSource"/>
         <!-- 自动扫描mapping.xml文件 -->
         <property name="mapperLocations" value="classpath:mapper/*.xml"/>
+        <!-- 指定mybatis全局配置文件的位置 -->
+        <property name="configLocation" value="classpath:mybatis-config.xml"></property>
     </bean>
 
-    <!--配置DAO所在spring会自动查找下面的类-->
+    <!--配置DAO所在 spring会自动查找下面的类-->
     <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
         <property name="basePackage" value="com.smart.dao"/>
         <property name="sqlSessionFactoryBeanName" value="sqlSessionFactory"/>
