@@ -1,7 +1,7 @@
 # masterSpring
 Spring + Mybatis + Dubbo + Zookeeper学习实践
 ## 目录
-### 1. [论坛登录Demo (Spring + SpringMVC + Jetty)](https://github.com/sxtykyj/masterSpring/tree/master/code/chapter2)
+### 1. [论坛登录Demo (Spring + SpringMVC + Jetty + Dubbo)](https://github.com/sxtykyj/masterSpring/tree/master/code/chapter2)
 #### 1）. Tool Version：
           JDK            ：1.8
           IDE            ：IntelliJ IDEA 2018.3.2 x64
@@ -41,6 +41,37 @@ Spring + Mybatis + Dubbo + Zookeeper学习实践
 
         mysql> COMMIT;
         Query OK, 0 rows affected (0.00 sec)   
+#### 4）. Dubbo配置示例
+    <!--dubbo配置 —— provider-->
+        <!-- 发布dubbo服务 -->
+        <!-- 提供方应用信息，用于计算依赖关系 -->
+        <dubbo:application name="eshop-manager"/>
+        <!-- 注册中心的地址 -->
+        <!--这里因为我的zookeeper注册在本机，所以ip地址是这个，大家根据自己的不同修改-->
+        <dubbo:registry protocol="zookeeper" address="127.0.0.1:2181"/>
+        <!-- 用dubbo协议在20880端口暴露服务 -->
+        <dubbo:protocol name="dubbo" port="20880"/>
+        <!-- 声明需要暴露的服务接口 -->
+        <dubbo:service interface="com.smart.service.UserService" ref="userServiceImpl"/>
+    
+    <!-- 引用dubbo服务 —— consumer -->
+        <dubbo:application name="eshop-manager-web"/>
+        <dubbo:registry protocol="zookeeper" address="127.0.0.1:2181"/>
+        <dubbo:reference interface="com.smart.service.UserService" id="userService"/>
+
+    <!--补充说明：-->
+    <!--1. dubbo:registry 标签一些属性的说明：-->
+    <!--         register是否向此注册中心注册服务，如果设为false，将只订阅，不注册。-->
+    <!--         check注册中心不存在时，是否报错。-->
+    <!--         subscribe是否向此注册中心订阅服务，如果设为false，将只注册，不订阅。-->
+    <!--         timeout注册中心请求超时时间(毫秒)。-->
+    <!--         address可以Zookeeper集群配置，地址可以多个以逗号隔开等。-->
+    <!--2. dubbo:service标签的一些属性说明：-->
+    <!--         interface服务接口的路径-->
+    <!--         ref引用对应的实现类的Bean的ID-->
+    <!--         registry向指定注册中心注册，在多个注册中心时使用，值为的id属性，多个注册中心ID用逗号分隔，如果不想将该服务注册到任何registry，可将值设为N/A-->
+    <!--         register 默认true ，该协议的服务是否注册到注册中心。-->
+
 
 ### 2. [论坛登录Demo (SpringBoot + SpringMVC + Tomcat)](https://github.com/sxtykyj/masterSpring/tree/master/code/chapter3)
 #### 1）. Tool Version：
@@ -98,6 +129,8 @@ Spring + Mybatis + Dubbo + Zookeeper学习实践
                      management.health.status.order=DOWN,OUT_OF_SERVICE,UNKNOWN,UP
                      
                  2）监控地址：http://localhost:8080/health
+
+
 ### 3. [Spring Ioc学习](https://github.com/sxtykyj/masterSpring/tree/master/code/chapter4/src/main/java/Ioc_study)
 #### 知识点整理：
       * Java反射机制
@@ -135,6 +168,7 @@ Spring + Mybatis + Dubbo + Zookeeper学习实践
       * Ioc的注入类型：构造函数注入，属性注入，接口注入(不建议)
              其中，spring支持构造函数注入和属性注入
              
+
 ### 4. [Spring AOP：使用动态代理技术在运行期间织入增强的代码 ](https://github.com/sxtykyj/masterSpring/tree/master/code/chapter4/src/main/java/aop_study)
 #### 1）基本概念：
                 AOP: Aspect Oriented Programing  面向切面（方面/剖面）编程
@@ -174,6 +208,7 @@ Spring + Mybatis + Dubbo + Zookeeper学习实践
                         ..可以匹配多级，可以是包路径，也可以匹配多个参数
                         + 只能放在类后面，表明本类及所有子类
             2）切面配置：可使用Spring提供的DefaultAdviceAutoProxyCreator自动代理创建器，它可以将容器中的所有Advisor自动织入目标Bean中
+
 
 ### 5. Spring对DAO的支持
 #### 1）数据源
@@ -309,6 +344,8 @@ Spring + Mybatis + Dubbo + Zookeeper学习实践
                  public void remove()              删除当前线程局部变量
                  protexted T initialValue()   返回该线程局部变量的初始值
         
+
 ### 7. [Spring + SpringMVC + Mybatis搭建项目](https://github.com/sxtykyj/masterSpring/tree/master/code/chapter18) 
+
 
 ### 8. [Zookeeper学习](https://github.com/sxtykyj/masterSpring/blob/master/code/zookeeperStudy/src/main/java/com/smart/zkDemo.java) 
