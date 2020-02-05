@@ -10,13 +10,13 @@ Spring学习实践
           mysql.version  ：8.0.18
 #### 2）. Jetty登录：http://localhost:8080/bbs/index.html
 #### 3）. 数据库代码
-        mysql> DROP DATABASE IF EXISTS sampledb;
+        mysql> DROP DATABASE IF EXISTS sampledb01;
         Query OK, 0 rows affected, 1 warning (0.01 sec)
 
-        mysql> CREATE DATABASE sampledb DEFAULT CHARACTER SET utf8;
+        mysql> CREATE DATABASE sampledb01 DEFAULT CHARACTER SET utf8;
         Query OK, 1 row affected, 1 warning (0.01 sec)
 
-        mysql> USE sampledb;
+        mysql> USE sampledb01;
         Database changed
         mysql>  CREATE TABLE t_user (
             -> user_id INT AUTO_INCREMENT PRIMARY KEY,
