@@ -17,6 +17,8 @@ import java.util.Date;
 // 该标注可将任何一个POJO类标注为SpringMVC的控制器，处理HTTP请求；该类首先会是一个Bean，因此可使用@Autowired进行Bean的注入
 @Controller
 public class LoginController {
+
+    @Autowired
     private UserService userService;
 
     // 负责处理 /index.html 的请求
