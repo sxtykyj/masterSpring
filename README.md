@@ -1,5 +1,5 @@
 # masterSpring
-Spring学习实践
+Spring + Mybatis + Dubbo + Zookeeper学习实践
 ## 目录
 ### 1. [论坛登录Demo (Spring + SpringMVC + Jetty)](https://github.com/sxtykyj/masterSpring/tree/master/code/chapter2)
 #### 1）. Tool Version：
@@ -309,4 +309,6 @@ Spring学习实践
                  public void remove()              删除当前线程局部变量
                  protexted T initialValue()   返回该线程局部变量的初始值
         
+### 7. [Spring + SpringMVC + Mybatis搭建项目](https://github.com/sxtykyj/masterSpring/tree/master/code/chapter18) 
 
+### 8. [Zookeeper学习](https://github.com/sxtykyj/masterSpring/blob/master/code/zookeeperStudy/src/main/java/com/smart/zkDemo.java) 
