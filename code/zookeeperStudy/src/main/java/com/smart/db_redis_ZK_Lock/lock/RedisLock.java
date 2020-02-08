@@ -1,4 +1,4 @@
-package com.smart.db_redis_Lock.lock;
+package com.smart.db_redis_ZK_Lock.lock;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.core.RedisTemplate;

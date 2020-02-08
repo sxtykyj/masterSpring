@@ -1,13 +1,10 @@
-package com.smart.db_redis_Lock.test;
+package com.smart.db_redis_ZK_Lock.test;
 
-import com.smart.db_redis_Lock.lock.DbLock;
-import com.smart.db_redis_Lock.lock.RedisLock;
+import com.smart.db_redis_ZK_Lock.lock.RedisLock;
 import com.smart.singleLock.Stock;
 import org.redisson.Redisson;
-import org.redisson.RedissonDelayedQueue;
 import org.redisson.api.RLock;
 import org.redisson.config.Config;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 /**

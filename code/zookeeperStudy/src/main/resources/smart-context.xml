@@ -60,7 +60,7 @@
 
     <!--配置DAO所在 spring会自动查找下面的类-->
     <bean class="tk.mybatis.spring.mapper.MapperScannerConfigurer">
-        <property name="basePackage" value="com.smart.db_redis_Lock.mapper"/>
+        <property name="basePackage" value="com.smart.db_redis_ZK_Lock.mapper"/>
     </bean>
 
     <!-- 配置事务管理器 -->

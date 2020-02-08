@@ -1,6 +1,6 @@
-package com.smart.db_redis_Lock.test;
+package com.smart.db_redis_ZK_Lock.test;
 
-import com.smart.db_redis_Lock.lock.DbLock;
+import com.smart.db_redis_ZK_Lock.lock.DbLock;
 import com.smart.singleLock.Stock;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.support.ClassPathXmlApplicationContext;

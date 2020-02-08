@@ -2,11 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d12d660c-42ee-49a8-b796-7c76d07b9bb1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/org_redisson_redisson_3_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/smart/db_redis_ZK_Lock/lock/ZKLock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/smart/db_redis_ZK_Lock/test/testZKLock.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/smart/db_redis_Lock/lock/RedisLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/smart/db_redis_Lock/lock/RedisLock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/smart/db_redis_Lock/test/testRedisLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/smart/db_redis_Lock/test/testRedisLock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/smart/db_redis_Lock/bean/LockRecord.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/smart/db_redis_ZK_Lock/bean/LockRecord.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/smart/db_redis_Lock/lock/DbLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/smart/db_redis_ZK_Lock/lock/DbLock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/smart/db_redis_Lock/lock/RedisLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/smart/db_redis_ZK_Lock/lock/RedisLock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/smart/db_redis_Lock/mapper/LockRecordMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/smart/db_redis_ZK_Lock/mapper/LockRecordMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/smart/db_redis_Lock/test/testDbStock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/smart/db_redis_ZK_Lock/test/testDbStock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/smart/db_redis_Lock/test/testRedisLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/smart/db_redis_ZK_Lock/test/testRedisLock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/smart-context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/smart-context.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -51,12 +56,29 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/smart/db_redis_Lock/lock/RedisLock.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/smart/db_redis_ZK_Lock/lock/RedisLock.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
+            <state relative-caret-position="399">
               <caret line="30" column="38" selection-start-line="30" selection-start-column="38" selection-end-line="30" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/smart/db_redis_ZK_Lock/lock/ZKLock.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-334">
+              <caret line="88" column="85" selection-start-line="88" selection-start-column="85" selection-end-line="88" selection-end-column="85" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1887#1888#0" expanded="true" />
+                <element signature="e#438#439#0" expanded="true" />
+                <element signature="e#466#467#0" expanded="true" />
+                <element signature="e#694#695#0" expanded="true" />
+                <element signature="e#721#722#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -71,11 +93,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/smart/db_redis_Lock/test/testRedisLock.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/smart/db_redis_ZK_Lock/test/testRedisLock.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="494">
-              <caret line="50" selection-start-line="50" selection-end-line="50" />
+            <state relative-caret-position="399">
+              <caret line="60" column="5" lean-forward="true" selection-start-line="17" selection-start-column="4" selection-end-line="60" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/smart/db_redis_ZK_Lock/test/testZKLock.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="635">
+              <caret line="42" column="18" selection-start-line="42" selection-start-column="18" selection-end-line="42" selection-end-column="18" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -84,7 +118,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/smart/db_redis_Lock/lock/DbLock.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/smart/db_redis_ZK_Lock/mapper/LockRecordMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/smart/db_redis_ZK_Lock/lock/DbLock.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="247">
               <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
@@ -129,6 +175,8 @@
         <option value="$PROJECT_DIR$/src/main/java/com/smart/db_redis_Lock/lock/RedisLock.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/smart/db_redis_Lock/test/testRedisLock.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/smart/db_redis_ZK_Lock/lock/ZKLock.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/smart/db_redis_ZK_Lock/test/testZKLock.java" />
       </list>
     </option>
   </component>
@@ -162,8 +210,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="393" />
-    <option name="y" value="21" />
+    <option name="x" value="409" />
+    <option name="y" value="8" />
     <option name="width" value="2058" />
     <option name="height" value="1292" />
   </component>
@@ -225,7 +273,7 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="smart" type="462c0819:PsiDirectoryNode" />
-              <item name="db_redis_Lock" type="462c0819:PsiDirectoryNode" />
+              <item name="db_redis_ZK_Lock" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="zookeeperStudy" type="b2602c69:ProjectViewProjectNode" />
@@ -235,7 +283,7 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="smart" type="462c0819:PsiDirectoryNode" />
-              <item name="db_redis_Lock" type="462c0819:PsiDirectoryNode" />
+              <item name="db_redis_ZK_Lock" type="462c0819:PsiDirectoryNode" />
               <item name="bean" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -246,7 +294,7 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="smart" type="462c0819:PsiDirectoryNode" />
-              <item name="db_redis_Lock" type="462c0819:PsiDirectoryNode" />
+              <item name="db_redis_ZK_Lock" type="462c0819:PsiDirectoryNode" />
               <item name="lock" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -257,7 +305,7 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="smart" type="462c0819:PsiDirectoryNode" />
-              <item name="db_redis_Lock" type="462c0819:PsiDirectoryNode" />
+              <item name="db_redis_ZK_Lock" type="462c0819:PsiDirectoryNode" />
               <item name="mapper" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -268,7 +316,7 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="smart" type="462c0819:PsiDirectoryNode" />
-              <item name="db_redis_Lock" type="462c0819:PsiDirectoryNode" />
+              <item name="db_redis_ZK_Lock" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -308,7 +356,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1581194842662" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1581200214984" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -335,13 +383,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.testRedisLock">
+  <component name="RunManager" selected="Application.testZKLock">
     <configuration name="testDbStock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.smart.db_redis_Lock.test.testDbStock" />
+      <option name="MAIN_CLASS_NAME" value="com.smart.db_redis_ZK_Lock.test.testDbStock" />
       <module name="zookeeperStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.smart.db_redis_Lock.test.*" />
+          <option name="PATTERN" value="com.smart.db_redis_ZK_Lock.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -350,11 +398,11 @@
       </method>
     </configuration>
     <configuration name="testRedisLock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.smart.db_redis_Lock.test.testRedisLock" />
+      <option name="MAIN_CLASS_NAME" value="com.smart.db_redis_ZK_Lock.test.testRedisLock" />
       <module name="zookeeperStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.smart.db_redis_Lock.test.*" />
+          <option name="PATTERN" value="com.smart.db_redis_ZK_Lock.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -368,6 +416,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.smart.singleLock.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="testZKLock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.smart.db_redis_ZK_Lock.test.testZKLock" />
+      <module name="zookeeperStudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.smart.db_redis_ZK_Lock.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -389,29 +450,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="zkDemo.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="zookeeperStudy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.smart.singleLock.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.smart" />
-      <option name="MAIN_CLASS_NAME" value="com.smart.zkDemo" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.testZKLock" />
         <item itemvalue="Application.testRedisLock" />
         <item itemvalue="Application.testDbStock" />
         <item itemvalue="Application.testStock" />
         <item itemvalue="JUnit.zkDemo" />
-        <item itemvalue="JUnit.zkDemo.test" />
       </list>
     </recent_temporary>
   </component>
@@ -429,7 +474,7 @@
       <workItem from="1581091546200" duration="10282000" />
       <workItem from="1581181710758" duration="64000" />
       <workItem from="1581181806305" duration="3672000" />
-      <workItem from="1581186861338" duration="5947000" />
+      <workItem from="1581186861338" duration="9040000" />
     </task>
     <task id="LOCAL-00001" summary="ZooKeeper学习Demo">
       <created>1580924418693</created>
@@ -452,7 +497,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581189989653</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Redission实现分布式锁Demo">
+      <created>1581194870808</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1581194870808</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -470,12 +522,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23253000" />
+    <option name="totallyTimeSpent" value="26346000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="225" y="12" width="1176" height="738" extended-state="0" />
+    <frame x="785" y="82" width="1176" height="738" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22361359" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.22361359" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -485,7 +538,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3294702" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.35584843" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.35584843" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -563,7 +616,8 @@
     <MESSAGE value="ZooKeeper学习Demo" />
     <MESSAGE value="数据库实现分布式锁Demo" />
     <MESSAGE value="Redis实现分布式锁Demo" />
-    <option name="LAST_COMMIT_MESSAGE" value="Redis实现分布式锁Demo" />
+    <MESSAGE value="Redission实现分布式锁Demo" />
+    <option name="LAST_COMMIT_MESSAGE" value="Redission实现分布式锁Demo" />
   </component>
   <component name="ZooKeeperConfig">
     <option name="host" value="" />
@@ -612,7 +666,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/smart/db_redis_Lock/bean/LockRecord.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/smart/db_redis_ZK_Lock/bean/LockRecord.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
           <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
@@ -633,16 +687,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/smart/dbLock/mapper/LockRecordMapperImpl.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/smart/db_redis_Lock/mapper/LockRecordMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="33" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/smart-servlet.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="494">
@@ -657,23 +701,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/smart/db_redis_Lock/lock/DbLock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/smart/db_redis_Lock/lock/RedisLock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="30" column="38" selection-start-line="30" selection-start-column="38" selection-end-line="30" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -681,7 +708,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/smart/db_redis_Lock/test/testDbStock.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/smart/db_redis_ZK_Lock/test/testDbStock.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
           <caret line="18" column="12" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
@@ -695,10 +722,62 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/smart/db_redis_Lock/test/testRedisLock.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/smart/db_redis_ZK_Lock/mapper/LockRecordMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="50" selection-start-line="50" selection-end-line="50" />
+        <state relative-caret-position="209">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/smart/db_redis_ZK_Lock/lock/DbLock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/smart/db_redis_ZK_Lock/lock/RedisLock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="30" column="38" selection-start-line="30" selection-start-column="38" selection-end-line="30" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/smart/db_redis_ZK_Lock/lock/ZKLock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-334">
+          <caret line="88" column="85" selection-start-line="88" selection-start-column="85" selection-end-line="88" selection-end-column="85" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1887#1888#0" expanded="true" />
+            <element signature="e#438#439#0" expanded="true" />
+            <element signature="e#466#467#0" expanded="true" />
+            <element signature="e#694#695#0" expanded="true" />
+            <element signature="e#721#722#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/smart/db_redis_ZK_Lock/test/testRedisLock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="60" column="5" lean-forward="true" selection-start-line="17" selection-start-column="4" selection-end-line="60" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/smart/db_redis_ZK_Lock/test/testZKLock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="635">
+          <caret line="42" column="18" selection-start-line="42" selection-start-column="18" selection-end-line="42" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
