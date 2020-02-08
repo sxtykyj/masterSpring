@@ -1,4 +1,4 @@
-package com.smart.dbLock.bean;
+package com.smart.db_redis_Lock.bean;
 
 import javax.persistence.Id;
 import javax.persistence.Table;

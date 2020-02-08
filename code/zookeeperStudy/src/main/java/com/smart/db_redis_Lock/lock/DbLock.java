@@ -1,7 +1,7 @@
-package com.smart.dbLock;
+package com.smart.db_redis_Lock.lock;
 
-import com.smart.dbLock.bean.LockRecord;
-import com.smart.dbLock.mapper.LockRecordMapper;
+import com.smart.db_redis_Lock.bean.LockRecord;
+import com.smart.db_redis_Lock.mapper.LockRecordMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 import tk.mybatis.mapper.entity.Example;

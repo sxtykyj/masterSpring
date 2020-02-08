@@ -1,12 +1,9 @@
-package com.smart.dbLock;
+package com.smart.db_redis_Lock.test;
 
+import com.smart.db_redis_Lock.lock.DbLock;
 import com.smart.singleLock.Stock;
-import com.smart.singleLock.testStock;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
-
-import java.util.concurrent.locks.Lock;
-import java.util.concurrent.locks.ReentrantLock;
 
 /**
  * 数据库实现分布式锁

@@ -1,6 +1,6 @@
-package com.smart.dbLock.mapper;
+package com.smart.db_redis_Lock.mapper;
 
-import com.smart.dbLock.bean.LockRecord;
+import com.smart.db_redis_Lock.bean.LockRecord;
 import tk.mybatis.mapper.common.Mapper;
 
 /**
