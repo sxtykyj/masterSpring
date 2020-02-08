@@ -17,6 +17,7 @@ public class zkDemo {
 
         // 1. 创建zookeeper连接
         ZooKeeper zooKeeper = new ZooKeeper("127.0.0.1:2181", 2000, new Watcher() {
+            @Override
             public void process(WatchedEvent watchedEvent) {
                 System.out.println("触发了" + watchedEvent.getType() + "的事件");
             }
