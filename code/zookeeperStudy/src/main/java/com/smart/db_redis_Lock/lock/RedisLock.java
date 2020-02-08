@@ -28,6 +28,8 @@ public class RedisLock implements Lock {
         while (true) {
             Boolean b = redisTemplate.opsForValue().setIfAbsent("lockName", LOCK_NAME);
             if (b) {
+                // 设置过期时间，解决Redis的死锁问题
+                redisTemplate.expire("lockName",15,TimeUnit.SECONDS);
                 return;
             } else {
                 System.out.println("循环等待中......");
