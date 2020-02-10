@@ -2,6 +2,8 @@ package com.smart.db_redis_ZK_Lock.lock;
 
 import org.apache.zookeeper.*;
 import org.apache.zookeeper.data.Stat;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
 
 import java.io.IOException;
 import java.util.List;

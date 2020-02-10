@@ -2,17 +2,15 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>dubboStudy</artifactId>
+        <groupId>com.smart</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.smart</groupId>
-    <artifactId>dubboStudy</artifactId>
-    <packaging>pom</packaging>
-    <version>1.0-SNAPSHOT</version>
-    <modules>
-        <module>dubbo_consumer</module>
-        <module>dubbo_provider</module>
-        <module>dubbo_interface</module>
-    </modules>
+    <artifactId>dubbo_provider</artifactId>
+    <packaging>war</packaging>
 
     <properties>
         <file.encoding>UTF-8</file.encoding>
@@ -29,6 +27,7 @@
         <hikaricp.version>3.2.0</hikaricp.version>
         <jetty.version>9.4.25.v20191220</jetty.version>
     </properties>
+
 
     <dependencies>
 

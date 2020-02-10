@@ -18,9 +18,6 @@ public class testZKLock {
     private static ZKLock zkLock;
 
     static {
-        ClassPathXmlApplicationContext classPathXmlApplicationContext = new ClassPathXmlApplicationContext("smart-context.xml");
-        zkLock = classPathXmlApplicationContext.getBean(ZKLock.class);
-
         zkLock = new ZKLock("127.0.0.1:2181","stock_zk");
     }
 

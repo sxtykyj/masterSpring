@@ -2,41 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d12d660c-42ee-49a8-b796-7c76d07b9bb1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../RpcStudy/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RpcStudy/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RpcStudy/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RpcStudy/.idea/junitgenerator-prj-settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RpcStudy/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RpcStudy/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RpcStudy/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RpcStudy/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RpcStudy/RpcStudy.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RpcStudy/consumer/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RpcStudy/consumer/src/main/java/com/smart/consumer/ConsumerMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RpcStudy/consumer/src/main/java/com/smart/consumer/HttpClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RpcStudy/consumer/src/main/java/com/smart/pojo/Invocation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RpcStudy/consumer/src/main/java/com/smart/service/HelloService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RpcStudy/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RpcStudy/provider/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RpcStudy/provider/src/main/java/com/smart/pojo/Invocation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RpcStudy/provider/src/main/java/com/smart/pojo/URL.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RpcStudy/provider/src/main/java/com/smart/provider/ServiceProvider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RpcStudy/provider/src/main/java/com/smart/registry/NativeRegistry.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RpcStudy/provider/src/main/java/com/smart/service/HelloService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RpcStudy/provider/src/main/java/com/smart/service/impl/HelloServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RpcStudy/provider/src/main/java/com/smart/tomcat/DispatcherServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RpcStudy/provider/src/main/java/com/smart/tomcat/HttpServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RpcStudy/provider/src/main/java/com/smart/tomcat/HttpServerHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dubboStudy/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dubboStudy/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dubboStudy/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dubboStudy/.idea/junitgenerator-prj-settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dubboStudy/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dubboStudy/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dubboStudy/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dubboStudy/dubboStudy.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dubboStudy/dubbo_server/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dubboStudy/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dubboStudy/.idea/artifacts/dubbo_provider_Web_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dubboStudy/.idea/libraries/Spring_5_2_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dubboStudy/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dubboStudy/dubbo_interface/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dubboStudy/dubbo_provider/dubbo_provider.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dubboStudy/dubbo_provider/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dubboStudy/dubbo_provider/src/main/resources/jdbc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dubboStudy/dubbo_provider/src/main/resources/redis.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dubboStudy/dubbo_provider/src/main/resources/smart-context.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dubboStudy/dubbo_provider/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RpcStudy/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../RpcStudy/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubboStudy/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dubboStudy/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubboStudy/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dubboStudy/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubboStudy/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dubboStudy/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubboStudy/dubbo_server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dubboStudy/dubbo_consumer/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubboStudy/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dubboStudy/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -64,18 +45,9 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="319" column="42" selection-start-line="319" selection-start-column="42" selection-end-line="319" selection-end-column="42" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/smart/db_redis_ZK_Lock/lock/RedisLock.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
+            <state relative-caret-position="456">
               <caret line="30" column="38" selection-start-line="30" selection-start-column="38" selection-end-line="30" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -87,7 +59,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/smart/db_redis_ZK_Lock/test/testDbStock.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-115">
+            <state relative-caret-position="285">
               <caret line="18" column="12" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
             </state>
           </provider>
@@ -105,14 +77,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/smart/db_redis_ZK_Lock/lock/ZKLock.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1463">
+            <state relative-caret-position="931">
               <caret line="61" selection-start-line="61" selection-end-line="61" />
               <folding>
+                <element signature="e#1845#1846#0" expanded="true" />
                 <element signature="e#1887#1888#0" expanded="true" />
-                <element signature="e#438#439#0" expanded="true" />
-                <element signature="e#466#467#0" expanded="true" />
-                <element signature="e#694#695#0" expanded="true" />
-                <element signature="e#721#722#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -130,7 +99,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/smart/db_redis_ZK_Lock/test/testRedisLock.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="570">
+            <state relative-caret-position="931">
               <caret line="54" column="5" selection-start-line="54" selection-start-column="5" selection-end-line="54" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -142,8 +111,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/smart/db_redis_ZK_Lock/test/testZKLock.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="279">
-              <caret line="27" selection-start-line="27" selection-end-line="27" />
+            <state relative-caret-position="51">
+              <caret line="15" column="3" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -154,7 +123,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/smart/db_redis_ZK_Lock/mapper/LockRecordMapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
+            <state relative-caret-position="152">
               <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -211,6 +180,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/smart/db_redis_Lock/test/testRedisLock.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/smart/db_redis_ZK_Lock/lock/ZKLock.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/smart/db_redis_ZK_Lock/test/testZKLock.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/idea64.exe.vmoptions" />
       </list>
     </option>
   </component>
@@ -243,11 +213,11 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="409" />
-    <option name="y" value="8" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="281" />
+    <option name="y" value="45" />
     <option name="width" value="2058" />
-    <option name="height" value="1292" />
+    <option name="height" value="1306" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -257,6 +227,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -390,7 +361,6 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -400,11 +370,11 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1581297993974" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1581371509250" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15136719" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
@@ -519,6 +489,14 @@
       <workItem from="1581181710758" duration="64000" />
       <workItem from="1581181806305" duration="3672000" />
       <workItem from="1581186861338" duration="11891000" />
+      <workItem from="1581359324575" duration="532000" />
+      <workItem from="1581359913446" duration="45000" />
+      <workItem from="1581360038940" duration="59000" />
+      <workItem from="1581360138613" duration="81000" />
+      <workItem from="1581360298843" duration="182000" />
+      <workItem from="1581360511913" duration="1013000" />
+      <workItem from="1581361661659" duration="611000" />
+      <workItem from="1581369359773" duration="632000" />
     </task>
     <task id="LOCAL-00001" summary="ZooKeeper学习Demo">
       <created>1580924418693</created>
@@ -573,12 +551,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29197000" />
+    <option name="totallyTimeSpent" value="32352000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="234" y="5" width="1176" height="738" extended-state="1" />
+    <frame x="213" y="55" width="1176" height="746" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22361359" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24418604" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -614,7 +593,7 @@
       <window_info anchor="right" id="Palette" order="9" />
       <window_info anchor="right" id="Capture Analysis" order="10" />
       <window_info anchor="right" id="Panda" order="11" show_stripe_button="false" weight="0.3291592" />
-      <window_info anchor="right" id="SciView" order="12" show_stripe_button="false" weight="0.3291592" />
+      <window_info anchor="right" id="SciView" order="12" weight="0.3291592" />
       <window_info anchor="right" id="Palette&#9;" order="13" />
       <window_info anchor="right" id="Theme Preview" order="14" />
     </layout>
@@ -747,8 +726,50 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
+        <state relative-caret-position="6061">
           <caret line="319" column="42" selection-start-line="319" selection-start-column="42" selection-end-line="319" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/idea64.exe.vmoptions">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/smart/db_redis_ZK_Lock/lock/RedisLock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="30" column="38" selection-start-line="30" selection-start-column="38" selection-end-line="30" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/smart/db_redis_ZK_Lock/test/testDbStock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="18" column="12" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/smart/singleLock/Stock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/smart/db_redis_ZK_Lock/lock/ZKLock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="931">
+          <caret line="61" selection-start-line="61" selection-end-line="61" />
+          <folding>
+            <element signature="e#1845#1846#0" expanded="true" />
+            <element signature="e#1887#1888#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -759,24 +780,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/smart/db_redis_ZK_Lock/lock/ZKLock.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/smart/db_redis_ZK_Lock/test/testRedisLock.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1463">
-          <caret line="61" selection-start-line="61" selection-end-line="61" />
+        <state relative-caret-position="931">
+          <caret line="54" column="5" selection-start-line="54" selection-start-column="5" selection-end-line="54" selection-end-column="5" />
           <folding>
-            <element signature="e#1887#1888#0" expanded="true" />
-            <element signature="e#438#439#0" expanded="true" />
-            <element signature="e#466#467#0" expanded="true" />
-            <element signature="e#694#695#0" expanded="true" />
-            <element signature="e#721#722#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/smart/db_redis_ZK_Lock/lock/RedisLock.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/smart/db_redis_ZK_Lock/mapper/LockRecordMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="30" column="38" selection-start-line="30" selection-start-column="38" selection-end-line="30" selection-end-column="38" />
+        <state relative-caret-position="152">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -790,44 +807,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/smart/db_redis_ZK_Lock/mapper/LockRecordMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/smart/singleLock/Stock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/smart/db_redis_ZK_Lock/test/testDbStock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-115">
-          <caret line="18" column="12" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/smart/db_redis_ZK_Lock/test/testRedisLock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="54" column="5" selection-start-line="54" selection-start-column="5" selection-end-line="54" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/smart/db_redis_ZK_Lock/test/testZKLock.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        <state relative-caret-position="51">
+          <caret line="15" column="3" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -853,7 +836,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>Spring</last-edited>
+          <last-edited>Spring (zookeeperStudy)|Spring</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -894,7 +877,6 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
