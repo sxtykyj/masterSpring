@@ -16,7 +16,7 @@
         <file.encoding>UTF-8</file.encoding>
         <mysql.version>8.0.18</mysql.version>
         <java.version>1.8</java.version>
-        <spring.version>5.2.3.RELEASE</spring.version>
+        <spring.version>5.0.5.RELEASE</spring.version>
         <slf4j.version>1.7.25</slf4j.version>
         <logback.version>1.2.3</logback.version>
         <aspectjrt.version>1.9.1</aspectjrt.version>
@@ -30,6 +30,14 @@
 
 
     <dependencies>
+        <!--=============================== Module Dependencies Begin =============================== -->
+        <dependency>
+            <groupId>com.smart</groupId>
+            <artifactId>dubbo_interface</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+
+        <!--=============================== Module Dependencies Begin =============================== -->
 
         <!--=============================== Spring Begin =============================== -->
         <dependency>
@@ -272,12 +280,6 @@
             <artifactId>commons-fileupload</artifactId>
             <version>1.3.3</version>
         </dependency>
-        <!-- MBG配置  MyBatis代码生成器 -->
-        <dependency>
-            <groupId>org.mybatis.generator</groupId>
-            <artifactId>mybatis-generator-core</artifactId>
-            <version>1.3.3</version>
-        </dependency>
         <!--dubbo + zookeeper-->
         <dependency>
             <groupId>com.alibaba</groupId>
@@ -294,39 +296,7 @@
             <artifactId>zkclient</artifactId>
             <version>0.1</version>
         </dependency>
-        <dependency>
-            <groupId>io.netty</groupId>
-            <artifactId>netty-all</artifactId>
-            <version>4.1.42.Final</version>
-        </dependency>
-        <dependency>
-            <groupId>org.apache.curator</groupId>
-            <artifactId>curator-framework</artifactId>
-            <version>2.8.0</version>
-        </dependency>
-        <dependency>
-            <groupId>org.apache.curator</groupId>
-            <artifactId>curator-recipes</artifactId>
-            <version>2.8.0</version>
-        </dependency>
-        <dependency>
-            <groupId>org.junit.jupiter</groupId>
-            <artifactId>junit-jupiter-api</artifactId>
-            <version>RELEASE</version>
-            <scope>compile</scope>
-        </dependency>
-        <!--redis-->
-        <dependency>
-            <groupId>redis.clients</groupId>
-            <artifactId>jedis</artifactId>
-            <version>2.9.0</version>
-        </dependency>
-        <!--redission 分布式锁算法-->
-        <dependency>
-            <groupId>org.redisson</groupId>
-            <artifactId>redisson-spring-data-21</artifactId>
-            <version>3.11.0</version>
-        </dependency>
+
         <!--=============================== 工具类 End =============================== -->
 
 
@@ -367,14 +337,6 @@
                 </configuration>
             </plugin>
             <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-war-plugin</artifactId>
-                <version>3.2.2</version>
-                <configuration>
-                    <failOnMissingWebXml>false</failOnMissingWebXml>
-                </configuration>
-            </plugin>
-            <plugin>
                 <groupId>org.apache.tomcat.maven</groupId>
                 <artifactId>tomcat7-maven-plugin</artifactId>
                 <configuration>
@@ -382,22 +344,6 @@
                     <port>8083</port>
                     <!--请求路径-->
                     <path>/</path>
-                </configuration>
-            </plugin>
-            <!-- jetty插件 -->
-            <plugin>
-                <groupId>org.mortbay.jetty</groupId>
-                <artifactId>maven-jetty-plugin</artifactId>
-                <version>6.1.25</version>
-                <configuration>
-                    <connectors>
-                        <connector implementation="org.mortbay.jetty.nio.SelectChannelConnector">
-                            <port>8080</port>
-                            <maxIdleTime>60000</maxIdleTime>
-                        </connector>
-                    </connectors>
-                    <contextPath>/forum</contextPath>
-                    <scanIntervalSeconds>0</scanIntervalSeconds>
                 </configuration>
             </plugin>
         </plugins>
