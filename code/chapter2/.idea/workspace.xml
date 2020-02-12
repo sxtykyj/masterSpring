@@ -2,24 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e12b48c2-ce9f-44b4-86e5-85236fdca000" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../dubboStudy/dubbo_consumer/src/main/java/com/smart/controller/HelloController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dubboStudy/dubbo_consumer/src/main/resources/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dubboStudy/dubbo_consumer/src/main/resources/smart-context.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dubboStudy/dubbo_consumer/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dubboStudy/dubbo_interface/src/main/java/com/smart/service/HelloService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dubboStudy/dubbo_provider/src/main/java/com/smart/service/impl/HelloServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dubboStudy/dubbo_provider/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dubboStudy/.idea/libraries/lib.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/smart/service/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/smart/service/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dubboStudy/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dubboStudy/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubboStudy/.idea/artifacts/dubbo_provider_Web_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dubboStudy/.idea/artifacts/dubbo_provider_Web_exploded.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../dubboStudy/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dubboStudy/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../dubboStudy/dubbo_consumer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dubboStudy/dubbo_consumer/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubboStudy/dubbo_consumer/src/main/java/com/smart/controller/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../dubboStudy/dubbo_consumer/src/main/java/com/smart/controller/HelloController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubboStudy/dubbo_consumer/src/main/resources/smart-context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dubboStudy/dubbo_consumer/src/main/resources/smart-context-web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubboStudy/dubbo_consumer/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dubboStudy/dubbo_consumer/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../dubboStudy/dubbo_provider/dubbo_provider.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../dubboStudy/dubbo_provider/dubbo_provider.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../dubboStudy/dubbo_provider/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dubboStudy/dubbo_provider/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dubboStudy/dubbo_provider/src/main/resources/smart-context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dubboStudy/dubbo_provider/src/main/resources/smart-context.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../dubboStudy/dubbo_provider/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dubboStudy/dubbo_provider/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dubboStudy/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dubboStudy/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../zookeeperStudy/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../zookeeperStudy/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -48,8 +41,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="389">
-              <caret line="113" column="21" lean-forward="true" selection-start-line="98" selection-start-column="7" selection-end-line="113" selection-end-column="21" />
+            <state relative-caret-position="2147">
+              <caret line="113" column="21" selection-start-line="98" selection-start-column="7" selection-end-line="113" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -57,7 +50,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/smart/dao/LoginLogDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
+            <state relative-caret-position="190">
               <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -71,7 +64,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/smart/domain/User.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
+            <state relative-caret-position="95">
               <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -83,7 +76,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/smart/domain/LoginLog.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="608">
+            <state relative-caret-position="627">
               <caret line="49" column="18" selection-start-line="49" selection-start-column="18" selection-end-line="49" selection-end-column="18" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -93,10 +86,28 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="37" selection-start-line="37" selection-end-line="75" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/smart-context.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-722">
+            <state relative-caret-position="399">
               <caret line="21" selection-start-line="21" selection-end-line="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/smart/service/UserServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
             </state>
           </provider>
         </entry>
@@ -190,11 +201,11 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="521" />
-    <option name="y" value="29" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="519" />
+    <option name="y" value="28" />
     <option name="width" value="1953" />
-    <option name="height" value="1385" />
+    <option name="height" value="1386" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -204,7 +215,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -353,7 +364,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -364,7 +375,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1580921340877" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../dubboStudy" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Artifacts" />
@@ -504,7 +515,8 @@
       <workItem from="1580839109373" duration="6580000" />
       <workItem from="1580922615491" duration="741000" />
       <workItem from="1581374430556" duration="111000" />
-      <workItem from="1581445336499" duration="3840000" />
+      <workItem from="1581445336499" duration="3898000" />
+      <workItem from="1581456751171" duration="455000" />
     </task>
     <task id="LOCAL-00001" summary="fix pom.xml">
       <created>1578339711829</created>
@@ -584,13 +596,12 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51990000" />
+    <option name="totallyTimeSpent" value="52503000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="427" y="0" width="1116" height="791" extended-state="0" />
-    <editor active="true" />
+    <frame x="297" y="16" width="1116" height="792" extended-state="1" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3194707" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.32608697" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -731,9 +742,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/smart-servlet.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="627">
+          <caret line="33" column="8" lean-forward="true" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2147">
+          <caret line="113" column="21" selection-start-line="98" selection-start-column="7" selection-end-line="113" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/smart/dao/LoginLogDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
+        <state relative-caret-position="190">
           <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -745,7 +770,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/smart/domain/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
+        <state relative-caret-position="95">
           <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -755,7 +780,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/smart/domain/LoginLog.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="608">
+        <state relative-caret-position="627">
           <caret line="49" column="18" selection-start-line="49" selection-start-column="18" selection-end-line="49" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -763,38 +788,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/smart-servlet.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/smart-context.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="627">
-          <caret line="33" column="8" lean-forward="true" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="25" column="12" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
+        <state relative-caret-position="399">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/smart/service/UserServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="2" column="38" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="38" />
+        <state relative-caret-position="133">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="389">
-          <caret line="113" column="21" lean-forward="true" selection-start-line="98" selection-start-column="7" selection-end-line="113" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/smart-context.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-722">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        <state relative-caret-position="133">
+          <caret line="37" selection-start-line="37" selection-end-line="75" selection-end-column="21" />
         </state>
       </provider>
     </entry>

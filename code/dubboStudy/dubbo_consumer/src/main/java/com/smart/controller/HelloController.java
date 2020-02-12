@@ -17,7 +17,7 @@ public class HelloController {
     @Reference
     private HelloService helloService;
 
-    @RequestMapping(value = "/sayhello", produces = "test/html;charset=UTF-8")
+    @RequestMapping(value = "/sayhello", produces = "text/html;charset=UTF-8")
     @ResponseBody
     public String sayHello() {
         // 完成对服务的远程调用
