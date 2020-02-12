@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="ad3d148b-8b76-4d6c-8aef-0819086b91db" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dubbo_provider/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo_provider/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -19,11 +18,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/dubbo_consumer/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="18" column="29" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="29" />
+            <state relative-caret-position="444">
+              <caret line="187" column="21" selection-start-line="187" selection-start-column="21" selection-end-line="187" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -32,16 +31,16 @@
         <entry file="file://$PROJECT_DIR$/dubbo_consumer/src/main/webapp/WEB-INF/web.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="171">
-              <caret line="9" column="13" lean-forward="true" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dubbo_provider/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="18" column="29" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
+            <state relative-caret-position="190">
+              <caret line="172" selection-start-line="172" selection-end-line="176" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -114,10 +113,10 @@
         <option value="$PROJECT_DIR$/dubbo_consumer/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/dubbo_provider/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/dubbo_consumer/src/main/java/com/smart/controller/HelloController.java" />
-        <option value="$PROJECT_DIR$/dubbo_consumer/pom.xml" />
         <option value="$PROJECT_DIR$/dubbo_consumer/src/main/resources/smart-context-web.xml" />
         <option value="$PROJECT_DIR$/dubbo_interface/src/main/java/com/smart/service/HelloServiceMock.java" />
         <option value="$PROJECT_DIR$/dubbo_provider/pom.xml" />
+        <option value="$PROJECT_DIR$/dubbo_consumer/pom.xml" />
       </list>
     </option>
   </component>
@@ -447,8 +446,8 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1581470828432" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/dubbo_provider/src/main/webapp" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1581470930763" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../.." />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="panda.excluded.classes" value="" />
@@ -671,7 +670,7 @@
       <updated>1581211006585</updated>
       <workItem from="1581211013079" duration="752000" />
       <workItem from="1581368129418" duration="14857000" />
-      <workItem from="1581449752147" duration="12413000" />
+      <workItem from="1581449752147" duration="13119000" />
     </task>
     <task id="LOCAL-00001" summary="dubbo实现demo">
       <created>1581450837824</created>
@@ -694,15 +693,21 @@
       <option name="project" value="LOCAL" />
       <updated>1581470295614</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="dubbo实现demo + 服务降级Mock使用">
+      <created>1581470914189</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1581470914189</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28022000" />
+    <option name="totallyTimeSpent" value="28728000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="782" y="105" width="1176" height="789" extended-state="0" />
-    <editor active="true" />
+    <frame x="393" y="39" width="1176" height="789" extended-state="0" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22898032" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -851,7 +856,7 @@
     <entry file="file://$PROJECT_DIR$/dubbo_consumer/src/main/webapp/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
-          <caret line="9" column="13" lean-forward="true" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -879,17 +884,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dubbo_consumer/pom.xml">
+    <entry file="file://$PROJECT_DIR$/dubbo_provider/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="18" column="29" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="29" />
+        <state relative-caret-position="190">
+          <caret line="172" selection-start-line="172" selection-end-line="176" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dubbo_provider/pom.xml">
+    <entry file="file://$PROJECT_DIR$/dubbo_consumer/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="18" column="29" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
+        <state relative-caret-position="444">
+          <caret line="187" column="21" selection-start-line="187" selection-start-column="21" selection-end-line="187" selection-end-column="21" />
         </state>
       </provider>
     </entry>
