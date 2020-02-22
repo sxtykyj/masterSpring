@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ad3d148b-8b76-4d6c-8aef-0819086b91db" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../RocketMQStudy/SpringBoot-Dubbo-Consumer/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RocketMQStudy/SpringBoot-Dubbo-Consumer/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RocketMQStudy/SpringBoot-Dubbo-Consumer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../RocketMQStudy/SpringBoot-Dubbo-Consumer/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RocketMQStudy/SpringBoot-Dubbo-Provider/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../RocketMQStudy/SpringBoot-Dubbo-Provider/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -19,10 +19,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/dubbo_consumer/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3553">
+            <state relative-caret-position="519">
               <caret line="187" column="21" selection-start-line="187" selection-start-column="21" selection-end-line="187" selection-end-column="21" />
             </state>
           </provider>
@@ -45,8 +45,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dubbo_provider/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="575">
-              <caret line="172" selection-start-line="172" selection-end-line="176" selection-end-column="21" />
+            <state relative-caret-position="309">
+              <caret line="179" column="35" selection-start-line="179" selection-start-column="35" selection-end-line="179" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -56,10 +56,10 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dubbo_consumer/src/main/resources/smart-context-web.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="366">
+            <state relative-caret-position="367">
               <caret line="30" column="63" selection-start-line="30" selection-start-column="63" selection-end-line="30" selection-end-column="63" />
             </state>
           </provider>
@@ -196,10 +196,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="204" />
-    <option name="y" value="110" />
+    <option name="x" value="444" />
+    <option name="y" value="280" />
     <option name="width" value="2058" />
-    <option name="height" value="1386" />
+    <option name="height" value="1388" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -315,8 +315,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -550,6 +550,7 @@
       <workItem from="1582167861442" duration="1565000" />
       <workItem from="1582170086518" duration="260000" />
       <workItem from="1582297726643" duration="445000" />
+      <workItem from="1582409978882" duration="39000" />
     </task>
     <task id="LOCAL-00001" summary="dubbo实现demo">
       <created>1581450837824</created>
@@ -583,12 +584,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30998000" />
+    <option name="totallyTimeSpent" value="31037000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="117" y="63" width="1176" height="792" extended-state="0" />
+    <frame x="254" y="160" width="1176" height="793" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2942755" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2996422" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -726,12 +728,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dubbo_consumer/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3553">
-          <caret line="187" column="21" selection-start-line="187" selection-start-column="21" selection-end-line="187" selection-end-column="21" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/dubbo_interface/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/dubbo_consumer/src/main/webapp/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
@@ -739,6 +737,9 @@
           <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo_consumer/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/dubbo_interface/src/main/java/com/smart/service/HelloServiceMock.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -757,23 +758,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dubbo_interface/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dubbo_provider/pom.xml">
+    <entry file="file://$PROJECT_DIR$/dubbo_consumer/src/main/resources/smart-context-web.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
-          <caret line="172" selection-start-line="172" selection-end-line="176" selection-end-column="21" />
+        <state relative-caret-position="367">
+          <caret line="30" column="63" selection-start-line="30" selection-start-column="63" selection-end-line="30" selection-end-column="63" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dubbo_consumer/src/main/resources/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dubbo_consumer/src/main/resources/smart-context-web.xml">
+    <entry file="file://$PROJECT_DIR$/dubbo_provider/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="366">
-          <caret line="30" column="63" selection-start-line="30" selection-start-column="63" selection-end-line="30" selection-end-column="63" />
+        <state relative-caret-position="309">
+          <caret line="179" column="35" selection-start-line="179" selection-start-column="35" selection-end-line="179" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo_consumer/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="519">
+          <caret line="187" column="21" selection-start-line="187" selection-start-column="21" selection-end-line="187" selection-end-column="21" />
         </state>
       </provider>
     </entry>
