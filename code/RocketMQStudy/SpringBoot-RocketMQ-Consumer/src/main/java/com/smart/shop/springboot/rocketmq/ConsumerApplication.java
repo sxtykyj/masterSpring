@@ -8,7 +8,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * 消费者启动类
  *
  * @Author: yk
- * @Date: 2020/2/18 22:40
+ * @Date: 2020/2/21 10:29
  */
 @Slf4j
 @SpringBootApplication

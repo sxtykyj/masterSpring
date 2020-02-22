@@ -1,13 +1,12 @@
 package com.smart.shop.springboot.rocketmq.listener;
 
-import org.apache.rocketmq.spring.annotation.ConsumeMode;
 import org.apache.rocketmq.spring.annotation.RocketMQMessageListener;
 import org.apache.rocketmq.spring.core.RocketMQListener;
 import org.springframework.stereotype.Component;
 
 /**
  * @Author: yk
- * @Date: 2020/2/19 18:54
+ * @Date: 2020/2/21 10:30
  */
 @RocketMQMessageListener(topic = "springboot-rocketmq", consumerGroup = "${rocketmq.consumer.group")
 @Component
