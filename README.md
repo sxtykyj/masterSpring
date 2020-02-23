@@ -1,5 +1,5 @@
 # masterSpring
-SSM + Zookeeper + RPC + Dubbo 学习实践
+SSM + Zookeeper + RPC + Dubbo + MQ(RocketMQ, Kafka) 学习实践
 ## 目录
 ### 1. [论坛登录Demo (Spring + SpringMVC + Jetty + Dubbo)](https://github.com/sxtykyj/masterSpring/tree/master/code/chapter2)
 #### 1）. Tool Version：
