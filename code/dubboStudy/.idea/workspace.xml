@@ -22,7 +22,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/dubbo_consumer/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="519">
+            <state relative-caret-position="3553">
               <caret line="187" column="21" selection-start-line="187" selection-start-column="21" selection-end-line="187" selection-end-column="21" />
             </state>
           </provider>
@@ -45,7 +45,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dubbo_provider/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="309">
+            <state relative-caret-position="3401">
               <caret line="179" column="35" selection-start-line="179" selection-start-column="35" selection-end-line="179" selection-end-column="35" />
             </state>
           </provider>
@@ -59,7 +59,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dubbo_consumer/src/main/resources/smart-context-web.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="367">
+            <state relative-caret-position="570">
               <caret line="30" column="63" selection-start-line="30" selection-start-column="63" selection-end-line="30" selection-end-column="63" />
             </state>
           </provider>
@@ -77,7 +77,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dubbo_consumer/src/main/java/com/smart/controller/HelloController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
+            <state relative-caret-position="190">
               <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -196,10 +196,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="444" />
+    <option name="x" value="442" />
     <option name="y" value="280" />
     <option name="width" value="2058" />
-    <option name="height" value="1388" />
+    <option name="height" value="1390" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -209,114 +209,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="dubboStudy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dubboStudy" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dubboStudy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dubboStudy" type="462c0819:PsiDirectoryNode" />
-              <item name="dubbo_consumer" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dubboStudy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dubboStudy" type="462c0819:PsiDirectoryNode" />
-              <item name="dubbo_consumer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dubboStudy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dubboStudy" type="462c0819:PsiDirectoryNode" />
-              <item name="dubbo_consumer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dubboStudy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dubboStudy" type="462c0819:PsiDirectoryNode" />
-              <item name="dubbo_consumer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dubboStudy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dubboStudy" type="462c0819:PsiDirectoryNode" />
-              <item name="dubbo_interface" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dubboStudy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dubboStudy" type="462c0819:PsiDirectoryNode" />
-              <item name="dubbo_interface" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dubboStudy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dubboStudy" type="462c0819:PsiDirectoryNode" />
-              <item name="dubbo_interface" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dubboStudy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dubboStudy" type="462c0819:PsiDirectoryNode" />
-              <item name="dubbo_interface" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dubboStudy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dubboStudy" type="462c0819:PsiDirectoryNode" />
-              <item name="dubbo_provider" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dubboStudy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dubboStudy" type="462c0819:PsiDirectoryNode" />
-              <item name="dubbo_provider" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dubboStudy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dubboStudy" type="462c0819:PsiDirectoryNode" />
-              <item name="dubbo_provider" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dubboStudy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dubboStudy" type="462c0819:PsiDirectoryNode" />
-              <item name="dubbo_provider" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dubboStudy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dubboStudy" type="462c0819:PsiDirectoryNode" />
-              <item name="dubbo_provider" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dubboStudy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dubboStudy" type="462c0819:PsiDirectoryNode" />
-              <item name="dubbo_provider" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
+      <pane id="ProjectPane" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -587,10 +482,10 @@
     <option name="totallyTimeSpent" value="31037000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="254" y="160" width="1176" height="793" extended-state="0" />
+    <frame x="253" y="160" width="1176" height="794" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2996422" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30500895" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -728,6 +623,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo_consumer/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3553">
+          <caret line="187" column="21" selection-start-line="187" selection-start-column="21" selection-end-line="187" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/dubbo_interface/pom.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -738,8 +640,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo_provider/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3401">
+          <caret line="179" column="35" selection-start-line="179" selection-start-column="35" selection-end-line="179" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/dubbo_consumer/src/main/resources/log4j.properties">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo_consumer/src/main/resources/smart-context-web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="30" column="63" selection-start-line="30" selection-start-column="63" selection-end-line="30" selection-end-column="63" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dubbo_interface/src/main/java/com/smart/service/HelloServiceMock.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -750,32 +666,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/dubbo_consumer/src/main/java/com/smart/controller/HelloController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
+        <state relative-caret-position="190">
           <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dubbo_consumer/src/main/resources/smart-context-web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="367">
-          <caret line="30" column="63" selection-start-line="30" selection-start-column="63" selection-end-line="30" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dubbo_provider/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="179" column="35" selection-start-line="179" selection-start-column="35" selection-end-line="179" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dubbo_consumer/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="519">
-          <caret line="187" column="21" selection-start-line="187" selection-start-column="21" selection-end-line="187" selection-end-column="21" />
         </state>
       </provider>
     </entry>
