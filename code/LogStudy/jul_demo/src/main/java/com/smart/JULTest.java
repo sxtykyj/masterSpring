@@ -58,6 +58,17 @@ public class JULTest {
         logger.fine("fine");
         logger.finer("finer");
         logger.finest("finest");
+    }
 
+    // Logger对象父子关系
+    @Test
+    public void testLogParent() throws Exception {
+        Logger logger1 = Logger.getLogger("com.smart.JULTest");
+        Logger logger2 = Logger.getLogger("com");
+
+        // 测试
+        System.out.println(logger1.getParent() == logger2);
+        // 所有日志记录器的顶级元素：LogManager$RootLogger, name = ""
+        System.out.println("looger2 parent: " + logger2.getParent() + "   name:" + logger2.getParent().getName());
     }
 }
