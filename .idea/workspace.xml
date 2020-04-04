@@ -1,24 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f1a5c3c2-b190-409f-8d66-af681f405311" name="Default Changelist" comment="rocketMQ study demo">
-      <change afterPath="$PROJECT_DIR$/code/RocketMQStudy/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/RocketMQStudy/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/RocketMQStudy/SpringBoot-Dubbo-Consumer/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/RocketMQStudy/SpringBoot-Dubbo-Interface/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/RocketMQStudy/SpringBoot-Dubbo-Interface/src/main/java/com/smart/service/HelloService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/RocketMQStudy/SpringBoot-Dubbo-Provider/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/RocketMQStudy/SpringBoot-RocketMQ-Consumer/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/RocketMQStudy/SpringBoot-RocketMQ-Consumer/src/main/java/com/smart/shop/springboot/rocketmq/ConsumerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/RocketMQStudy/SpringBoot-RocketMQ-Consumer/src/main/java/com/smart/shop/springboot/rocketmq/listener/Consumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/RocketMQStudy/SpringBoot-RocketMQ-Consumer/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/RocketMQStudy/SpringBoot-RocketMQ-Producer/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/RocketMQStudy/SpringBoot-RocketMQ-Producer/src/main/java/com/smart/shop/springboot/rocketmq/ProducerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/RocketMQStudy/SpringBoot-RocketMQ-Producer/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/RocketMQStudy/SpringBoot-RocketMQ-Producer/src/test/java/com/smart/shop/test/ProducerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/dubboStudy/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/code/dubboStudy/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="f1a5c3c2-b190-409f-8d66-af681f405311" name="Default Changelist" comment="rocketMQ study demo" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +22,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/code/chapter2/src/main/resources/smart-context.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="494">
+            <state relative-caret-position="380">
               <caret line="71" column="64" selection-start-line="71" selection-start-column="50" selection-end-line="71" selection-end-column="64" />
             </state>
           </provider>
@@ -60,10 +43,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="406" />
-    <option name="y" value="106" />
+    <option name="x" value="322" />
+    <option name="y" value="28" />
     <option name="width" value="1953" />
-    <option name="height" value="1390" />
+    <option name="height" value="1392" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -146,6 +129,7 @@
       <workItem from="1581472813977" duration="150000" />
       <workItem from="1582169873659" duration="21000" />
       <workItem from="1582170349190" duration="91000" />
+      <workItem from="1585952600074" duration="15000" />
     </task>
     <task id="LOCAL-00001" summary="initial">
       <created>1578336524568</created>
@@ -165,13 +149,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2577000" />
+    <option name="totallyTimeSpent" value="2592000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="232" y="61" width="1116" height="794" extended-state="0" />
+    <frame x="184" y="16" width="1116" height="795" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23818526" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24291116" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -186,7 +170,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.29864255" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.29819277" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
@@ -265,7 +249,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/code/chapter2/src/main/resources/smart-context.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
+        <state relative-caret-position="380">
           <caret line="71" column="64" selection-start-line="71" selection-start-column="50" selection-end-line="71" selection-end-column="64" />
         </state>
       </provider>
