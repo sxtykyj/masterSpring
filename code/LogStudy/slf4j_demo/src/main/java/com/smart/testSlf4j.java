@@ -15,7 +15,7 @@ public class testSlf4j {
     // 快速入门
     @Test
     public void test() throws Exception {
-        // 日志输出 (默认级别为info)
+        // 日志输出 (slf4j内置simple 默认级别为info；logback默认级别为debug)
         LOGGER.error("error");
         LOGGER.warn("warn");
         LOGGER.info("info");
