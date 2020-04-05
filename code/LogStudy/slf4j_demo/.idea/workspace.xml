@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0dc26237-1c6e-4bd3-95b7-afc3bae01092" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../log4j2_demo/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../log4j2_demo/.idea/junitgenerator-prj-settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../log4j2_demo/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../log4j2_demo/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../log4j2_demo/log4j2_demo.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../log4j2_demo/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../log4j2_demo/src/main/java/com/smart/Log4j2Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../log4j2_demo/src/main/java/com/smart/Slf4jLog4j2Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../log4j2_demo/src/main/resources/log4j2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../log4j2_demo/src/main/resources/log4j2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../log4j2_demo/src/main/resources/log4j2.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -88,7 +80,7 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="302" />
     <option name="y" value="49" />
     <option name="width" value="2058" />
@@ -155,7 +147,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1586126016977" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1586126341752" />
     <property name="last_opened_file_path" value="C:/Program Files/Git/bin/git.exe" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -209,7 +201,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1586014466416</updated>
-      <workItem from="1586014468921" duration="11555000" />
+      <workItem from="1586014468921" duration="11863000" />
     </task>
     <task id="LOCAL-00001" summary="日志学习_logback + slf4j">
       <created>1586019083179</created>
@@ -266,10 +258,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11555000" />
+    <option name="totallyTimeSpent" value="11863000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="173" y="28" width="1176" height="747" extended-state="1" />
+    <frame x="173" y="28" width="1176" height="747" extended-state="0" />
     <layout>
       <window_info id="Designer" />
       <window_info id="Image Layers" />
