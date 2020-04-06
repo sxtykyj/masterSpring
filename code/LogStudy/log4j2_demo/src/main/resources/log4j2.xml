@@ -52,6 +52,13 @@
 
     <!--  logger 定义  -->
     <Loggers>
+        <!--  自定义异步 logger 对象 （log4j2 的 AsyncLogger 的混合异步）
+              includeLocation="false" ：关闭日志记录的行号信息（行号信息会严重影响异步性能）
+              additivity="false"      ：不再继承 rootLogger 对象
+         -->
+        <AsyncLogger name="com.smart" level="trace" includeLocation="false" additivity="false">
+            <AppenderRef ref="file"/>
+        </AsyncLogger>
         <!--  使用 rootLogger 配置日志级别 level="trace"  -->
         <Root level="trace">
             <!--  指定日志使用的处理器  -->
